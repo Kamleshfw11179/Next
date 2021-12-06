@@ -1,0 +1,45 @@
+.about{
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home>h2{
+    font-weight: 200;
+}
+
+.login{
+    margin:auto;
+    display: flex;
+    width:20%;
+    align-items: center;
+    flex-direction: column;
+    padding:5%;
+}
+.login>label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login>input{
+    width:70%;
+    height:25px;
+    border:none;
+    border-bottom: 2px solid grey;
+}
+
+.login>button{
+    width:30%;
+}
+.login>button:hover{
+    background-color: crimson;
+    color:white
+}
